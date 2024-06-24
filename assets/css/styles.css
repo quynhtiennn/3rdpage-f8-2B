@@ -277,8 +277,7 @@ p.desc.lv2 {
 
 /*========== Features ==========*/
 .features {
-margin-top: 130px;
-
+    margin-top: 130px;
 }
 
 .features .heading {
@@ -310,14 +309,132 @@ margin-top: 130px;
 
 .feature-list .function {
     margin: 26px 0 16px;
-    color: #0D1111;
+    color: #0d1111;
     font-size: 20px;
     font-weight: 600;
     line-height: normal;
 }
 
-
 /*========== Courses ==========*/
+.courses {
+    margin-top: 130px;
+}
+
+.courses .heading {
+    margin: 18px 0px 19px;
+}
+
+.courses .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .row .desc {
+    width: 44.9%;
+}
+
+.courses .row a {
+    color: #1ebfc1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .course-list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.course-list .item {
+    width: 30.65%;
+    position: relative;
+}
+
+.course-list .item .image {
+    position: relative;
+}
+
+.course-list .item .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.course-list .item .shape {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    border-radius: 8px;
+    opacity: 0.35;
+    background: #d0efed;
+}
+
+.course-list .fee span,
+.course-list .item .title {
+    text-decoration: none;
+    color: #0d1111;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.course-list .info {
+    position: absolute;
+    top: 322px;
+    left: 17px;
+    width: 90.5%;
+    padding: 18px 25px 29px;
+    color: #9da6a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course-list .info .fee {
+    margin-top: 6px;
+    color: #767e7e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.course-list .fee span {
+    margin-left: 6px;
+}
+
+.course-list .desc {
+    font-size: 14px;
+    margin: 6px 0px 18px;
+}
+
+.course-list .info .option {
+    display: flex;
+}
+
+.course-list .option .month,
+.course-list .option .class {
+    position: relative;
+    margin: 0px 16px;
+}
+
+.course-list .option .month::before,
+.course-list .option .class::before {
+    position: absolute;
+    top: 8px;
+    left: -16px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #1ebfc1;
+    border-radius: 50%;
+}
+
 /*========== Static ==========*/
 /*========== Feedback ==========*/
 /*========== Action ==========*/
