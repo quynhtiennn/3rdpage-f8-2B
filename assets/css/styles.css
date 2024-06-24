@@ -19,6 +19,35 @@ body {
     margin-right: auto;
 }
 
+.heading a {
+    color: #0d1111;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+    text-decoration: none;
+}
+
+p.desc {
+    color: #767e7e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p.desc.lv2 {
+    color: #9da6a5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.mini-title {
+    color: #767e7e;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -92,14 +121,13 @@ body {
     justify-content: space-between;
 }
 
-.hero .mini-title {
-    color: #767e7e;
-    font-size: 14px;
-    font-weight: 400;
-}
-
 .hero .info {
     width: 39.15%;
+}
+
+.hero .info .mini-title {
+    letter-spacing: normal;
+    font-weight: 400;
 }
 
 .hero .info .heading {
@@ -108,7 +136,6 @@ body {
 
 .hero .info .heading a {
     text-decoration: none;
-    color: #0d1111;
     font-size: 62px;
     font-weight: 700;
     line-height: 72px;
@@ -249,6 +276,46 @@ body {
 }
 
 /*========== Features ==========*/
+.features {
+margin-top: 130px;
+
+}
+
+.features .heading {
+    width: 49.3%;
+    margin: 18px 0px;
+}
+
+.features .top .desc {
+    width: 50.4%;
+}
+
+.feature-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-list .item:nth-child(1) {
+    width: 14.35%;
+}
+
+.feature-list .item:nth-child(2) {
+    width: 19.1%;
+}
+
+.feature-list .item:nth-child(3) {
+    width: 19.1%;
+}
+
+.feature-list .function {
+    margin: 26px 0 16px;
+    color: #0D1111;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
 
 /*========== Courses ==========*/
 /*========== Static ==========*/
