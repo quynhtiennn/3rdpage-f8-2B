@@ -342,7 +342,7 @@ p.desc.lv2 {
 }
 
 .courses .course-list {
-    margin-top: 79px;
+    margin: 79px 0 124px;
     display: flex;
     gap: 47px;
 }
@@ -436,6 +436,30 @@ p.desc.lv2 {
 }
 
 /*========== Static ==========*/
+.static {
+    padding-top: 265px;
+}
+
+.static .body {
+    display: flex;
+    justify-content: center;
+    gap: 215px;
+}
+
+.static .number {
+    color: #0d1111;
+    text-align: center;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.static .desc {
+    margin-top: 11px;
+    text-align: center;
+}
+
+
 /*========== Feedback ==========*/
 /*========== Action ==========*/
 /*========== Footer ==========*/
