@@ -460,6 +460,10 @@ p.desc.lv2 {
 }
 
 /*========== Feedback ==========*/
+.feedback {
+    margin-bottom: 130px;
+}
+
 .feedback .body {
     display: flex;
     gap: 72px;
@@ -548,5 +552,20 @@ p.desc.lv2 {
     bottom: 29px;
     background: #b1dfdc;
 }
+
 /*========== Action ==========*/
+.action {
+    padding: 76px 0px 88px;
+    background: #DEF6F5;
+}
+
+.action .body {
+    display: flex;
+    align-items: center;
+    gap: 35%;
+}
+
+.action .heading {
+    margin-bottom: 18px;
+}
 /*========== Footer ==========*/
